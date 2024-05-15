@@ -154,3 +154,37 @@ footer {
     color: #666;
 }
 
+/* Estilos para la galería de imágenes */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cambia el número de columnas según sea necesario */
+    grid-gap: 10px;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para la sección de contacto */
+.contacto-info {
+    margin-top: 20px;
+}
+
+.contacto-info p {
+    margin-bottom: 10px;
+}
+
+.contacto-info strong {
+    color: #007bff; /* Color azul para destacar el texto fuerte */
+}
+
+.contacto-info a {
+    color: #007bff; /* Color azul para los enlaces de correo electrónico */
+    text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+.contacto-info a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor sobre el enlace */
+}
