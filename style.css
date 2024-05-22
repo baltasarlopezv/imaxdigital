@@ -112,6 +112,7 @@ header nav ul li a:hover {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1em;
+    margin-top: 20px;
 }
 
 .cta-button:hover {
@@ -208,6 +209,15 @@ h2 {
     text-align: center;
     padding: 40px 0;
     position: relative;
+}
+
+#contacto .contacto-images {
+    text-align: center; /* Centra horizontalmente las imágenes */
+    margin-top: 30px;
+}
+
+#contacto .contacto-images img {
+    margin: 0 10px; /* Espacio horizontal entre las imágenes */
 }
 
 footer {
