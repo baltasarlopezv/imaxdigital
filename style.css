@@ -216,7 +216,7 @@ footer {
 
 @media (max-width: 480px) {
     header .nombre-empresa {
-        width: 150px;
+        width: 300px;
     }
     .container {
         width: 90%;
