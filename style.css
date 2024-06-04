@@ -162,7 +162,7 @@ h2 {
 }
 
 .gallery-container img.puente-dental {
-    height: 200%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -224,4 +224,16 @@ footer {
     .gallery-container img {
         width: 100%;
     }
+}
+
+/* Estilos para las secciones que se van mostrando al hacer scroll */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
 }
