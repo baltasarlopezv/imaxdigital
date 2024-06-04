@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #e0e0e0; /* Color de fondo gris claro para el header */
+    background-color: #e0e0e0;
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #ccc;
@@ -132,50 +132,18 @@ h2 {
 
 /* Colores de fondo para las secciones */
 .section-bg-1 {
-    background-color: #ffffff; /* Azul claro */
+    background-color: #ffffff;
 }
 
 .section-bg-2 {
-    background-color: #ffffff; /* Verde muy claro */
+    background-color: #ffffff;
 }
 
-#quienes-somos .quienes-somos-content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-#quienes-somos .quienes-somos-content img {
-    width: 200px;
-    height: auto;
-    border-radius: 20px; /* Esquinas redondeadas */
-}
-
-#quienes-somos .quienes-somos-texto {
-    max-width: 600px;
-}
-
-#servicios .servicio {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-
-#servicios .servicio img {
-    width: 150px;
-    height: auto;
-    margin-right: 20px;
-    border-radius: 20px; /* Esquinas redondeadas */
-}
-
-#servicios .servicio-info {
-    max-width: 600px;
-}
-
-#galeria {
-    padding: 40px 0;
+.inicio-content {
+    max-width: 800px; /* Ancho máximo del párrafo */
+    margin: 0 auto; /* Centramos el contenedor */
+    padding: 0 20px; /* Añadimos padding si es necesario */
+    text-align: center; /* Opcional, para centrar el texto */
 }
 
 .gallery-container {
@@ -189,15 +157,13 @@ h2 {
     max-width: 200px;
     width: 100%;
     height: auto;
-    border-radius: 20px; /* Esquinas redondeadas */
+    border-radius: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.gallery-container img[alt="Puente Dental"] {
-    max-width: 200px;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+.gallery-container img.puente-dental {
+    height: 200%;
+    border-radius: 20px;
 }
 
 .gallery-container img:hover {
@@ -212,16 +178,16 @@ h2 {
 }
 
 #contacto .contacto-images {
-    text-align: center; /* Centra horizontalmente las imágenes */
+    text-align: center;
     margin-top: 30px;
 }
 
 #contacto .contacto-images img {
-    margin: 0 10px; /* Espacio horizontal entre las imágenes */
+    margin: 0 10px;
 }
 
 footer {
-    background-color: #e0e0e0; /* Fondo gris claro */
+    background-color: #e0e0e0;
     text-align: center;
     padding: 10px 0;
 }
@@ -239,25 +205,12 @@ footer {
     transition: all 0.3s ease-in-out;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     header nav ul {
         flex-direction: column;
         gap: 10px;
         border-top: none;
         border-bottom: none;
-    }
-    #quienes-somos .quienes-somos-content {
-        flex-direction: column;
-        text-align: center;
-    }
-    #servicios .servicio {
-        flex-direction: column;
-        text-align: center;
-    }
-    #servicios .servicio img {
-        margin-bottom: 10px;
-        margin-right: 0;
     }
 }
 
